@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  buggy-app:
+    build: ./buggy-app
+    ports:
+      - "4000:4000"
+    restart: always
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
