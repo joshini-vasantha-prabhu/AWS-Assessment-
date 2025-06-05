@@ -1,5 +1,3 @@
----
-
 ```markdown
 # 🛠️ CI/CD Pipeline with Jenkins + Docker + Node.js
 
