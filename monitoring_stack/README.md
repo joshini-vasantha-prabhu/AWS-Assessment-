@@ -220,10 +220,3 @@ Default credentials:
 * How to automate everything with Docker Compose
 
 > DevOps isn’t complete without observability — and now you’ve got it! 📡
-
-```
-
----
-
-Let me know when you're ready for the final `README.md` for **Task 7: Simulated Production Incident & RCA** — I’ll prepare that next!
-```
