@@ -1,4 +1,3 @@
-```markdown
 # 🛠️ CI/CD Pipeline with Jenkins + Docker + Node.js
 
 Welcome to the **CI/CD Jenkins Project**! This task demonstrates a classic DevOps setup using:
@@ -7,12 +6,8 @@ Welcome to the **CI/CD Jenkins Project**! This task demonstrates a classic DevOp
 - 🐳 Docker to containerize a Node.js app
 - 🔄 Automating build → test → image creation → container run
 
----
-
 ## 📁 Folder Structure
-
 ```
-
 ci-cd-jenkins/
 ├── app/
 │   ├── app.js
@@ -21,8 +16,6 @@ ci-cd-jenkins/
 ├── Dockerfile
 
 ````
-
----
 
 ## 🚀 Project Goal
 
@@ -34,8 +27,6 @@ Set up a **local Jenkins pipeline** that:
 4. 🐳 Builds a Docker image
 5. ▶️ Runs the container
 
----
-
 ## ⚙️ Prerequisites
 
 Before running this, make sure you have:
@@ -46,11 +37,8 @@ Before running this, make sure you have:
 - ✅ Your app inside `ci-cd-jenkins/app/`
 - ✅ Jenkins Docker container has Docker CLI access (`/var/run/docker.sock`)
 
----
 
 ## 🧰 Step-by-Step Setup
-
----
 
 ### 🐳 Step 1: Run Jenkins in Docker
 
